@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-head-color: #1d4076;
+}
+
+body{
+   font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.root{
+  overflow: hidden;
+}
+
+.icon-circle {
+  @apply w-10 h-10 bg-gray-300 rounded-full flex justify-center items-center p-1;
+}
+
+.partition_slide::before {
+  clip-path: polygon(0 0, 100% 0, 100% 57%, 0% 100%);
+}
+
+
+
+.animate-slide {
+  animation: animate-slide-in linear 1.5s infinite;
+}
+
+.shap{
+  clip-path: polygon(1.5% 0, 70% 3%, 70% 13%, 97% 9%, 97.5% 89%, 40% 100%, 39.9% 90%, 1% 88%);
+}
+
+@keyframes animate-slide-in {
+
+  0%,
+  65%,
+  100% {
+    left: 50%;
+  }
+
+  30% {
+    left: 55%;
+  }
+
+  85% {
+    left: 45%;
+  }
+}
