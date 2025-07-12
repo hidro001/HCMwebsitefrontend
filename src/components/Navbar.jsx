@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <header className="px-5 py-3 flex justify-between items-center bg-white shadow-md relative z-20">
       <div className="logo flex-shrink-0">
-        <img src="http://localhost/humanmaximizer/assets/images/hcm-logo.png" alt="logo" className="h-16" />
+        <img src="public/images/logo/hcm-logo.png" alt="logo" className="h-16" />
       </div>
 
       {/* Mobile Hamburger Menu */}
@@ -47,7 +47,7 @@ function Navbar() {
                   <h2 className="font-bold">Products</h2>
                   <ul className="flex flex-col items-start gap-3 mt-4 text-[#193f77]">
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaUser /></span><a href="/hr-management">HR Software</a></li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCoins /></span>Payroll Management</li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCoins /></span><a href="/payrol">Payroll Management</a></li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span>Leave Management</li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaClock /></span>Attendance Management</li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span>Performance Management</li>
@@ -67,7 +67,7 @@ function Navbar() {
                   </ul>
                 </div>
                 <div className="flex flex-col gap-3 items-center">
-                  <img src="http://localhost/humanmaximizer/assets/images/growth-chart.jpg" alt="Image" className="h-32" />
+                  <img src="public/images/logo/growth-chart.jpg" alt="Image" className="h-32" />
                   <p className="font-bold text-2xl text-center leading-tight">Automate HR and<br />Payroll Process</p>
                   <span className="text-sm text-center">Drive people and business<br />growth in your company.</span>
                   <button className="bg-[#193f77] w-4/5 p-2 text-white rounded-2xl">Get a Demo</button>

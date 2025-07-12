@@ -23,6 +23,7 @@ import GuidOfPayroll from './components/products/GruidofPayroll';
 import GuidofAttandence from './components/products/GuidofAttandence';
 import Hcms from './components/products/Hcms';
 import Partners from './components/products/Partners';
+import Payroll from './components/products/Payroll';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/hr-management" element={<HRsoftware />} />
+        <Route path="/hr-software" element={<HRsoftware />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/faq" element={<FAQ />} />
@@ -51,6 +52,7 @@ function App() {
         <Route path="/guidtoattandence" element={<GuidofAttandence/>} />
         <Route path="/hrms" element={<Hcms/>} />
         <Route path="/partners" element={<Partners/>} />
+        <Route path="/payroll" element={<Payroll/>} />
       </Routes>
       <Footer />
     </Router>

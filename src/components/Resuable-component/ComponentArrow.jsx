@@ -16,10 +16,10 @@ function ComponentArrow({ steps }) {
                         <img
                             src={
                                 index === 0
-                                    ? 'http://localhost/humanmaximizer/assets/images/compensation.png'
+                                    ? 'public/assets/images/componentArrow/compensation.png'
                                     : index === 1
-                                        ? 'http://localhost/humanmaximizer/assets/images/leadership-training.png'
-                                        : 'http://localhost/humanmaximizer/assets/images/corporate-programs.png'
+                                        ? 'public/images/componentArrow/leadership-training.png'
+                                        : 'public/images/componentArrow/corporate-programs.png'
                             }
                             alt={step.title}
                             className="w-20 h-20 sm:w-24 sm:h-24 mb-4"
@@ -38,12 +38,12 @@ function ComponentArrow({ steps }) {
                 ))}
 
                 <img
-                    src="http://localhost/humanmaximizer/assets/images/arrow.png"
+                    src="public/images/componentArrow/arrow.png"
                     alt="arrow"
                     className="absolute top-[35%] left-[25%] rotate-[305deg] w-24 md:w-32 hidden md:block"
                 />
                 <img
-                    src="http://localhost/humanmaximizer/assets/images/arrow2.png"
+                    src="public/images/componentArrow/arrow2.png"
                     alt="arrow"
                     className="absolute top-[35%] right-[25%] rotate-[53deg] w-24 md:w-32 hidden md:block"
                 />

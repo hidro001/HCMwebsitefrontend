@@ -205,7 +205,7 @@ export default function Home() {
 
           <div className='flex justify-center items-center'>
             <img
-              src="http://localhost/humanmaximizer/assets/images/hcm-dash-board.jpg"
+              src="public/images/home/hcm-dash-board.jpg"
               alt="Dashboard Features"
               className="rounded-xl shadow-lg mx-auto"
             />
@@ -228,7 +228,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className="w-full bg-cover bg-center py-20 bg-[url('http://localhost/humanmaximizer/assets/images/hero-bg.png')] relative lg:px-24">
+      <section className="w-full bg-cover bg-center py-20 bg-[url('public/images/home/hero-bg.png')] relative lg:px-24">
         <h3 className="text-center text-3xl font-extrabold text-[#1d4076] relative mb-16">
           Product Demo
           <span className="absolute left-1/2 -translate-x-1/2 top-full w-40 h-[3px] bg-[#39bef4] animate-[spinleftline_3.5s_linear_infinite]"></span>
@@ -249,7 +249,7 @@ export default function Home() {
                 className={`w-28 h-28 bg-transparant rounded-full ${img === 'payroll-management.png' || img === 'attendence.png' ? 'ml-16' : ''} shadow-[0_0_8px_#00000021] flex items-center justify-center flex-col p-2`}
               >
                 <img
-                  src={`http://localhost/humanmaximizer/assets/images/${img}`}
+                  src={`public/images/home/${img}`}
                   alt=""
                   className="w-8 h-8"
                 />
@@ -260,8 +260,8 @@ export default function Home() {
             ))}
           </div>
           <div className="w-full max-w-3xl px-4 relative">
-            <img src="http://localhost/humanmaximizer/assets/images/Thumbnail.0764d5a659f562ed6c2c.webp" alt="Video Thumbnail" className="rounded-xl w-full" />
-            <img src="http://localhost/humanmaximizer/assets/images/youtube-icon.png" alt="Play" className="w-20 md:w-24 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer" />
+            <img src="public/images/home/Thumbnail.webp" alt="Video Thumbnail" className="rounded-xl w-full" />
+            <img src="public/images/home/youtube-icon.png" alt="Play" className="w-20 md:w-24 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer" />
             <p className="text-center text-base mt-4">Watch product demo to learn everything about our service.</p>
           </div>
           <div className="hidden lg:flex flex-col gap-6 absolute right-0 top-1/2 -translate-y-1/2 mr-4">
@@ -273,7 +273,7 @@ export default function Home() {
               'resign.png',
             ].map((img, idx) => (
               <div key={idx} className={`w-28 h-28 bg-trasnparant rounded-full ${img === 'ticket-management.png' || img === 'policies-induction.png' ? 'ml-16' : ""} shadow-[0_0_8px_#00000021] flex items-center justify-center flex-col p-2`}>
-                <img src={`http://localhost/humanmaximizer/assets/images/${img}`} alt="" className="w-8 h-8" />
+                <img src={`public/images/home/${img}`} alt="" className="w-8 h-8" />
                 <h4 className="text-center mt-1">{img.replace('.png', '').replace(/-/g, ' ')}</h4>
               </div>
             ))}
@@ -295,7 +295,7 @@ export default function Home() {
           ].map((img, idx) => (
             <div key={idx} className="w-full flex flex-col items-center justify-center p-5">
               <div className="w-24 h-24 bg-white rounded-full shadow-md flex items-center justify-center p-2">
-                <img src={`http://localhost/humanmaximizer/assets/images/${img}`} alt="" className="w-8 h-8" />
+                <img src={`public/images/home/${img}`} alt="" className="w-8 h-8" />
               </div>
               <h4 className="text-md lg:text-[10px] text-center mt-2 font-medium leading-tight">{img.replace('.png', '').replace(/-/g, ' ')}</h4>
             </div>
@@ -309,23 +309,23 @@ export default function Home() {
         <div className='flex justify-center gap-10 flex-wrap items-center'>
           {[
             {
-              img: 'http://localhost/humanmaximizer/assets/images/cio-icon.png',
+              img: 'public/images/home/cio-icon.png',
               tag: 'IT Director'
             },
             {
-              img: 'http://localhost/humanmaximizer/assets/images/chro-icon.png',
+              img: 'public/images/home/chro-icon.png',
               tag: 'HR Executive'
             },
             {
-              img: 'http://localhost/humanmaximizer/assets/images/payroll-admin.png',
+              img: 'public/images/home/payroll-admin.png',
               tag: 'Payroll Admin'
             },
             {
-              img: 'http://localhost/humanmaximizer/assets/images/manager-icon.png',
+              img: 'public/images/home/manager-icon.png',
               tag: 'Managers'
             },
             {
-              img: 'http://localhost/humanmaximizer/assets/images/employee-icon.png',
+              img: 'public/images/home/employee-icon.png',
               tag: 'Employees'
             },
           ].map((data, index) => {
@@ -345,7 +345,7 @@ export default function Home() {
 
         {[
           {
-            img: 'http://localhost/humanmaximizer/assets/images/cio.png',
+            img: 'public/images/home/cio.png',
             firstbox: {
               head: 'IT Director',
               paragraph: "CIOs, Human Maximizer helps you tidy up all your HR data on one platform. It makes HR and payroll a doddle, cuts down on all that admin staff, and ensures your data is safe and sound and you're following the rules. Plus, it frees up your IT resources by getting rid of loads of different HR systems.",
@@ -361,7 +361,7 @@ export default function Home() {
 
           },
           {
-            img: 'http://localhost/humanmaximizer/assets/images/chro-images.webp',
+            img: 'public/images/home/chro-images.webp',
             firstbox: {
               head: 'HR Executive',
               paragraph: "Human Maximizer helps you focus on looking after talent, keeping an eye on how happy the staff are, setting up pay structures, and making sure there's a plan for who takes over when folks move on. With Human Maximizer, CHROs can build a good atmosphere at work and help the business do better.",
@@ -377,7 +377,7 @@ export default function Home() {
 
           },
           {
-            img: 'http://localhost/humanmaximizer/assets/images/PayrollAdmin.webp',
+            img: 'public/images/home/PayrollAdmin.webp',
             firstbox: {
               head: 'Payroll Admin',
               paragraph: "Payroll Administrators, Human Maximizer helps you get things automated, manage payments accurately and on time, and give you automatic calculations, which means fewer mistakes with data. Human Maximizer makes it clear how tax and deductions are worked out and produces proper payroll reports.",
@@ -393,7 +393,7 @@ export default function Home() {
 
           },
           {
-            img: 'http://localhost/humanmaximizer/assets/images/Managers.webp',
+            img: 'public/images/home/Managers.webp',
             firstbox: {
               head: 'Managers',
               paragraph: "Human Maximizer lets managers see how everyone's doing in real-time, get into employee info, dish out tasks, and sort out any issues. You can run appraisals, keep tabs on performance, spot where skills are lacking, and offer training that's just right for each person by making well-informed decisions.",
@@ -409,7 +409,7 @@ export default function Home() {
 
           },
           {
-            img: 'http://localhost/humanmaximizer/assets/images/Employees.webp',
+            img: 'public/images/home/Employees.webp',
             firstbox: {
               head: 'Employees',
               paragraph: "Employees get access to things tailored to them to keep them involved, like raising tickets, seeing how they're doing, and having a chat with their teammates. Human Maximizer, with its mobile access, means employees can stay in the loop with company news and can work out their productive hours.",
@@ -468,7 +468,7 @@ export default function Home() {
         <p className='text-center mt-4'>Smart platform for meeting all the business needs of employees and employers.</p>
         <div className='grid grid-cols-1 lg:grid-cols-2'>
           <div className='mt-4 lg:p-12'>
-            <img src="http://localhost/humanmaximizer/assets/images/images/girl.png" alt="http://localhost/humanmaximizer/assets/images/images/girl.png" className='object-fit mb-8' />
+            <img src="public/images/home/girl.png" alt="public/images/home/girl.png" className='object-fit mb-8' />
           </div>
           <div className="slider-container pb-32 lg:py-24 px-5">
             <Slider {...settings}>
@@ -569,7 +569,7 @@ export default function Home() {
         <h3 className='text-2xl text-[#1d4076] font-bold text-center'>Employee Data Card</h3>
         <div className='grid lg:grid-cols-2 gap-5 lg:p-8 mt-5'>
           <div className='flex justify-center'>
-            <img src="http://localhost/humanmaximizer/assets/images/MobileApp.webp" alt="http://localhost/humanmaximizer/assets/images/MobileApp.webp" className='h-[80vh]' />
+            <img src="public/images/home/MobileApp.webp" alt="http://localhost/humanmaximizer/assets/images/MobileApp.webp" className='h-[80vh]' />
           </div>
           <div className='grid grid-cols-2 gap-5'>
             {[
@@ -607,7 +607,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='bg-[url("http://localhost/humanmaximizer/assets/images/abstract-images.jpg")] bg-cover bg-no-repeat p-5'>
+      <section className='bg-[url("public/images/home/abstract-images.jpg")] bg-cover bg-no-repeat p-5'>
 
         <div className='flex justify-center flex-col items-center text-center'>
           <h3 className='text-[#1F2C4C] font-bold text-center text-2xl'>Seamless <span className='text-[#39befe]'>Human Side </span> <br /> of HR for your business needs</h3>
@@ -679,7 +679,7 @@ export default function Home() {
             })}
           </div>
           <div className='bg-[#ddd] rounded-xl lg:w-[40vw] shadow-[0_0_20px_#ddd]'>
-            <img src="http://localhost/humanmaximizer/assets/images/why-choose.webp" alt="http://localhost/humanmaximizer/assets/images/why-choose.webp" className='object-fit' />
+            <img src="public/images/home/why-choose.webp" alt="http://localhost/humanmaximizer/assets/images/why-choose.webp" className='object-fit' />
           </div>
         </div>
       </section>
