@@ -40,7 +40,7 @@ function App() {
         <Route path="/performance" element={<Performance />} />
         <Route path="/leave" element={<Leave />} />
         <Route path="/employee" element={<Employee />} />
-        <Route path="/attandence" element={<Attandence />} />
+        <Route path="/attendence" element={<Attandence />} />
         <Route path="/employee-engagement" element={<EmployeeEngagement />} />
         <Route path="/task" element={< Task/>} />
         <Route path="/recruitment" element={< Recruitment/>} />

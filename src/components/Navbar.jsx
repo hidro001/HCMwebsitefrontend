@@ -30,14 +30,12 @@ function Navbar() {
         <img src="/images/logo/hcm-logo.png" alt="logo" className="h-16" />
       </div>
 
-      {/* Mobile Hamburger Menu */}
       <button className="md:hidden text-2xl" onClick={() => setMobileOpen(!mobileOpen)}>
         ☰
       </button>
 
       <div className={`menu absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-5 md:p-0 ${mobileOpen ? 'block' : 'hidden'} md:flex justify-between items-center`} ref={dropdownRef}>
         <ul className="flex flex-col md:flex-row gap-6 text-[#193f77] font-semibold">
-          {/* Features Dropdown */}
           <li onClick={() => setOpenDropdown(openDropdown === 'features' ? null : 'features')} className={navItemClass}>
             <span className="relative group flex items-center gap-2">Features <FaCaretDown className="text-head-color" /></span>
             <div className={`absolute top-full left-0 w-full md:w-[55vw] bg-white shadow-lg p-5 rounded-lg z-10 origin-top transition-transform transition-opacity duration-300 ease-in-out transform ${openDropdown === 'features' ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0 pointer-events-none'
@@ -47,23 +45,23 @@ function Navbar() {
                   <h2 className="font-bold">Products</h2>
                   <ul className="flex flex-col items-start gap-3 mt-4 text-[#193f77]">
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaUser /></span><a href="/hr-management">HR Software</a></li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCoins /></span><a href="/payrol">Payroll Management</a></li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span>Leave Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaClock /></span>Attendance Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span>Performance Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaUsers /></span>Employee Data</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaUserClock /></span>Employee Engagement</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaArrowsRotate /></span>Task Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaMagnifyingGlass /></span>Recruitment Software</li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCoins /></span><a href="/payroll">Payroll Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span><a href="/leave">Leave Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaClock /></span><a href="/attendence">Attendance Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span><a href="/performance">Performance Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaUsers /></span><a href="/employee">Employee Data</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaUserClock /></span><a href="/employee-engagement">Employee Engagement</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaArrowsRotate /></span><a href="/task">Task Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaMagnifyingGlass /></span><a href="/recruitement">Recruitment Software</a></li>
                   </ul>
                 </div>
                 <div>
                   <h2 className="font-bold">For Industry</h2>
                   <ul className="flex flex-col items-start gap-3 mt-4 text-[#193f77]">
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaMagnifyingGlass /></span>Announcement</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span>Ticket Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaLaptop /></span>Report & Analytics</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span>Productivity Lens</li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaMagnifyingGlass /></span><a href="/announcement">Announcement</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span><a href="/ticket">Ticket Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaLaptop /></span><a href="/report">Report & Analytics</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span><a href="/">Productivity Lens</a></li>
                   </ul>
                 </div>
                 <div className="flex flex-col gap-3 items-center">
@@ -76,14 +74,13 @@ function Navbar() {
             </div>
           </li>
 
-          {/* About Us, Pricing, FAQs */}
           {["About Us", "Pricing", "FAQs"].map((item, idx) => (
             <li key={idx} className={navItemClass}>
               <span className="relative group">{item} {underlineSpan}</span>
             </li>
           ))}
 
-          {/* Resources Dropdown */}
+
           <li onClick={() => setOpenDropdown(openDropdown === 'resources' ? null : 'resources')} className={navItemClass}>
             <span className="relative group flex items-center gap-2">Resources <FaCaretDown className="text-head-color" /></span>
             <div className={`absolute top-full left-0 w-full md:w-[45vw] bg-white shadow-lg p-5 rounded-lg z-10 origin-top transition-transform transition-opacity duration-300 ease-in-out transform ${openDropdown === 'resources' ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0 pointer-events-none'
@@ -92,26 +89,25 @@ function Navbar() {
                 <div>
                   <h2 className="font-bold">Products</h2>
                   <ul className="flex flex-col items-start gap-3 mt-4 text-[#193f77]">
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span>Guide to Performance Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCircleDollarToSlot /></span>Guide to Payroll Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaFileExport /></span>Resignation FNF</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaFileContract /></span>Guide to Attendance Management</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span>Guide to Ticket Management</li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaChartSimple /></span><a href="/guidtoperformance">Guide to Performance Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCircleDollarToSlot /></span><a href="/guidtopayroll">Guide to Payroll Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaFileExport /></span><a href="/">Resignation FNF</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaFileContract /></span><a href="/guidtoattandence">Guide to Attendance Management</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span><a href="/">Guide to Ticket Management</a></li>
                   </ul>
                 </div>
                 <div>
                   <h2 className="font-bold">For Industry</h2>
                   <ul className="flex flex-col items-start gap-3 mt-4 text-[#193f77]">
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaFileLines /></span>HRMS</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaHandshakeSimple /></span>Partners</li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><MdQuestionMark /></span>Human Maximizer Help</li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaFileLines /></span><a href="/hrms">HRMS</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaHandshakeSimple /></span><a href="/partners">Partners</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><MdQuestionMark /></span><a href="/">Human Maximizer Help</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </li>
 
-          {/* Contact Us */}
           <li className={navItemClass}>
             <span className="relative group"><a href="/contact">Contact Us</a> {underlineSpan}</span>
           </li>
@@ -120,7 +116,7 @@ function Navbar() {
 
       <div className="login mt-4 md:mt-0 hidden sm:block">
         <button className="relative border-l-2 border-blue-900 border-r-2 border-blue-900 p-3 font-bold flex gap-3 items-center shadow-lg overflow-hidden group">
-          <span className="z-10 flex text-head-color group-hover:text-white items-center gap-3"><FaUser className="text-blue-900 group-hover:text-white" /> Login</span>
+          <span className="z-10 flex text-head-color group-hover:text-white items-center gap-3"><FaUser className="text-blue-900 group-hover:text-white" /> <a href="/login">Login</a></span>
           <span className="absolute inset-0 w-full h-full bg-blue-900 transform scale-x-0 origin-center group-hover:scale-x-100 transition-all duration-300 ease-out"></span>
         </button>
       </div>
