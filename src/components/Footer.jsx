@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         <div>
           <img
-            src="/images/logo.png"
+            src="/images/logo/hcm-logo.png"
             alt="Human Maximizer Logo"
             className="h-16 mb-4 mx-auto sm:mx-0"
           />
