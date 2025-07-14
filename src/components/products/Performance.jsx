@@ -300,7 +300,7 @@ function Performance() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
                     </div>
                 </div>
             </section>
@@ -316,21 +316,21 @@ function Performance() {
                             tag: "Feedback",
                             head: "Create a culture of feedback",
                             para: "Deliver timely, actionable feedback at all levels of your organization and help everyone grow with self, manager-to-employee, peer, and skip-level reviews.",
-                            image: "public/images/HrSoftware/hrfeatures1.png"
+                            image: "/images/HrSoftware/hrfeatures1.png"
                         },
                         {
                             id: 2,
                             tag: "Goals & One-on-Ones",
                             head: "Give employees the support they need",
                             para: "Encourage progress, tackle challenges, and celebrate wins with regular one-on-ones, right in BambooHR. Create, track, and share individual and team goals anytime, anywhere with the desktop or mobile app.",
-                            image: "public/images/HrSoftware/hrfeatures2.png"
+                            image: "/images/HrSoftware/hrfeatures2.png"
                         },
                         {
                             id: 3,
                             tag: "Flexible Reviews Cycles",
                             head: "Use pre-built reviews, or make your own",
                             para: "Create custom review cycles tailored to your teams’ unique needs. Or if you need to get started quickly, take advantage of pre-built solutions and questions. Because one size doesn’t fit all when it comes to performance reviews!",
-                            image: "public/images/HrSoftware/hrfeatures3.png"
+                            image: "/images/HrSoftware/hrfeatures3.png"
                         },
                     ].map((data, index) => (
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:p-5 shadow-[0_0_20px_#ddd] rounded-2xl p-12" key={index}>

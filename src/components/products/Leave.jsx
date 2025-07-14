@@ -301,7 +301,7 @@ function Leave() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
                     </div>
                 </div>
             </section>
@@ -314,7 +314,7 @@ function Leave() {
                     <div>
                         <h2 className='text-[#1d4076] font-bold text-3xl'>Features that Make <span className='text-[#39bef4]'> Leave Management</span> Hassle-Free</h2>
                         <p className='text-md mb-5'>Skip the confusion and manual effort. Human Maximizer Attendance Management Software helps you capture, track, and manage employee attendance the smart way without micromanaging.</p>
-                        <img src="/public/images/Leave/leave-attendence.jpg" alt="image" />
+                        <img src="//images/Leave/leave-attendence.jpg" alt="image" />
                     </div>
                     <div className='h-[70vh] overflow-y-scroll overflow-x-hidden p-5 lg:p-12'>
                         <div className='shadow-[0_0_10px_#ddd] p-5 rounded-xl'>
@@ -397,42 +397,42 @@ function Leave() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-16">
                         {[
                             {
-                                image: "public/images/HrSoftware/easy-time-icon.png",
+                                image: "/images/HrSoftware/easy-time-icon.png",
                                 head: 'Easy Time-off Booking for Employees',
                                 para: "With Human Maximizer, you can track your vacation easily. For your employees, company, and HR needs, the vacation tracker and who's off the calendar provides a complete picture."
                             },
                             {
-                                image: "public/images/HrSoftware/visibility-icon.png",
+                                image: "/images/HrSoftware/visibility-icon.png",
                                 head: 'Increased visibility',
                                 para: 'WWith Human Maximizer, you can instantly see who is on leave today, tomorrow, or in the future, increasing transparency and strengthening your workforce.'
                             },
                             {
-                                image: "public/images/HrSoftware/custom-icon.png",
+                                image: "/images/HrSoftware/custom-icon.png",
                                 head: 'Proactively Take Action',
                                 para: "Using Human Maximizer, you can dive deep into data and identify trends and insights to make strategic and impactful decisions."
                             },
                             {
-                                image: "public/images/HrSoftware/dashboard-icon.png",
+                                image: "/images/HrSoftware/dashboard-icon.png",
                                 head: 'Customization Capabilities',
                                 para: "The software can be tailored to meet your organization's leave policies' unique needs. Our software allows you to manage complex approval workflows and specific accrual rules."
                             },
                             {
-                                image: "public/images/HrSoftware/apply-leave-icon.png",
+                                image: "/images/HrSoftware/apply-leave-icon.png",
                                 head: 'All-in-one dashboard',
                                 para: "While applying for leave, employees can see their leave balance. It's good to have access to HR and immediate managers so that they have clarity while approval is given."
                             },
                             {
-                                image: "public/images/HrSoftware/sick-leave-icon.png",
+                                image: "/images/HrSoftware/sick-leave-icon.png",
                                 head: 'Apply for leaves on the go',
                                 para: 'With Human Maximizer, employees can submit leave requests from their cloud-based management system on their mobile devices. Our software solution also enables HR managers to complete approvals on the go.'
                             },
                             {
-                                image: "public/images/HrSoftware/proactively-icon.png",
+                                image: "/images/HrSoftware/proactively-icon.png",
                                 head: 'Management of sick leave',
                                 para: "With Human Maximizer leave management software, your organization can manage absences with a comprehensive solution, allowing you to track absences due to sickness and attach all the necessary documentation."
                             },
                             {
-                                image: "public/images/HrSoftware/attendance-icon.png",
+                                image: "/images/HrSoftware/attendance-icon.png",
                                 head: 'Attendance Summary',
                                 para: "Using Human Maximizer, you will be able to see your team's attendance for every month, or see the attendance for all employees for the year."
                             },

@@ -309,7 +309,7 @@ function Attandence() {
                     </div>
                     <div className="relative lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute -left-8 top-32 shap px-64 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
                     </div>
                 </div>
             </section>
@@ -322,7 +322,7 @@ function Attandence() {
                     <div>
                         <h2 className='text-[#1d4076] font-bold text-3xl'>Features that Make<span className='text-[#39bef4]'> Attendance  Management</span>Hassle-Free.</h2>
                         <p className='text-md mb-5'>Skip the confusion and manual effort. Human Maximizer Attendance Management Software helps you capture, track, and manage employee attendance the smart way without micromanaging.</p>
-                        <img src="/public/images/Leave/leave-attendence.jpg" alt="image" />
+                        <img src="//images/Leave/leave-attendence.jpg" alt="image" />
                     </div>
                     <div className='h-[70vh] overflow-y-scroll p-3 md:p-12'>
                         <div className='shadow-[0_0_10px_#ddd] p-5 rounded-xl'>
@@ -391,7 +391,7 @@ function Attandence() {
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-[inset_0_0_10px_#ddd]">
                             <div class="flex justify-center mb-4">
-                                <img src="public/images/Attandence/busy-teams.svg" alt="Icon" class="w-12 h-12" />
+                                <img src="/images/Attandence/busy-teams.svg" alt="Icon" class="w-12 h-12" />
                             </div>
                             <h3 class="text-lg font-semibold text-blue-900">Built for Busy Teams</h3>
                             <p class="mt-2 text-gray-600">Human Maximizer makes it easy for employees and managers to check in, track time, and stay compliant without constant follow-ups.</p>
@@ -400,7 +400,7 @@ function Attandence() {
 
                         <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-[inset_0_0_10px_#ddd]">
                             <div class="flex justify-center mb-4">
-                                <img src="public/images/Attandence/accurate-icon.svg" alt="Icon" class="w-12 h-12" />
+                                <img src="/images/Attandence/accurate-icon.svg" alt="Icon" class="w-12 h-12" />
                             </div>
                             <h3 class="text-lg font-semibold text-blue-900">Keeps Everything Accurate</h3>
                             <p class="mt-2 text-gray-600">With automated logs, secure check-ins, and real-time data, you get clean records you can rely on.</p>
@@ -408,7 +408,7 @@ function Attandence() {
 
                         <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-[inset_0_0_10px_#ddd]">
                             <div class="flex justify-center mb-4">
-                                <img src="public/images/Attandence/works-icon.svg" alt="Icon" class="w-12 h-12" />
+                                <img src="/images/Attandence/works-icon.svg" alt="Icon" class="w-12 h-12" />
                             </div>
                             <h3 class="text-lg font-semibold text-blue-900">Works the Way You Do</h3>
                             <p class="mt-2 text-gray-600">From flexible shifts to custom attendance rules, Qandle adapts to how your teams actually work.</p>
@@ -417,7 +417,7 @@ function Attandence() {
 
                         <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-[inset_0_0_10px_#ddd]">
                             <div class="flex justify-center mb-4">
-                                <img src="public/images/Attandence/payroll-icon.svg" alt="Icon" class="w-12 h-12" />
+                                <img src="/images/Attandence/payroll-icon.svg" alt="Icon" class="w-12 h-12" />
                             </div>
                             <h3 class="text-lg font-semibold text-blue-900">Connected with Payroll</h3>
                             <p class="mt-2 text-gray-600">No more double work! Attendance data flows straight into payroll, making salary processing faster and more accurate.</p>
@@ -426,7 +426,7 @@ function Attandence() {
 
                         <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-[inset_0_0_10px_#ddd]">
                             <div class="flex justify-center mb-4">
-                                <img src="public/images/Attandence/extra-apps-icon.svg" alt="Icon" class="w-12 h-12" />
+                                <img src="/images/Attandence/extra-apps-icon.svg" alt="Icon" class="w-12 h-12" />
                             </div>
                             <h3 class="text-lg font-semibold text-blue-900">No Extra Apps Needed</h3>
                             <p class="mt-2 text-gray-600">Mobile check-ins, reports, and regularizations all happen in one place. No hopping between tools.</p>
@@ -435,7 +435,7 @@ function Attandence() {
 
                         <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-[inset_0_0_10px_#ddd]">
                             <div class="flex justify-center mb-4">
-                                <img src="public/images/Attandence/setups-icons.svg" alt="Icon" class="w-12 h-12" />
+                                <img src="/images/Attandence/setups-icons.svg" alt="Icon" class="w-12 h-12" />
                             </div>
                             <h3 class="text-lg font-semibold text-blue-900">Easy to Set Up and Manage</h3>
                             <p class="mt-2 text-gray-600">Employees can submit leave requests from their cloud-based management system on mobile devices. HR can approve on the go.</p>

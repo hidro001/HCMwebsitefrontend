@@ -282,7 +282,7 @@ function Payroll() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
                     </div>
                 </div>
             </section>

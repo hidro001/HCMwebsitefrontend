@@ -6,7 +6,7 @@ function Partners() {
             <section className='bg-[#1d4076] text-white'>
                 <h3 className='text-4xl text-center p-3 font-bold'>Partners</h3>
                 <p className='text-center text-lg'>Everything you need to know about Human Capital Management Systems (HCMS)</p>
-                <img src="/public/images/newbg.png" alt="partition" />
+                <img src="//images/newbg.png" alt="partition" />
             </section>
             <section className="px-6 sm:px-12 md:px-32 flex flex-col gap-4 text-md">
                 <h1 className="text-3xl sm:text-4xl font-bold">What is Attendance Management?</h1>
@@ -27,7 +27,7 @@ function Partners() {
             <section className="px-6 sm:px-12 md:px-32 flex flex-col gap-4 mt-4 text-md">
                 <h3 className="font-bold text-3xl sm:text-4xl">What Are the Common Functions of HRMS Systems?</h3>
                 <p>Human Resource Management (HRM, or simply HR) is a function in every organization designed to increase employee performance in aligning with employer's strategic objectives. Primarily focused on how people are managed within organizations, human resource management is driven by systems and policies. HR involves the following sub-functions, and an HRMS helps automate and streamline them:</p>
-                <img src="public/images/GuidofPerformance/hcms.png" alt="imageofguidinperformance" />
+                <img src="/images/GuidofPerformance/hcms.png" alt="imageofguidinperformance" />
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Manpower Planning</h4>
                 <p>Human Resource planning mainly emphasizes the estimation of resources required in order to achieve the desired business results. HR plans can be either short-term/immediate or long-term/strategic. A good HRMS can enable the HR team to execute these plans swiftly and effectively.</p>
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Recruitment</h4>
@@ -57,7 +57,7 @@ function Partners() {
                 <p>HR ensures regular communication with employees regarding various policies, procedures, and organizational updates. HRMS software provides a platform to facilitate this communication.</p>
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Employee Engagement</h4>
                 <p>HR is moving towards a more strategic role by aligning employee goals with organizational goals. HRMS software plays a vital role in fostering this alignment and engagement.</p>
-                <img src="public/images/GuidofPerformance/hcms1.png" alt="imageofGuid-perfomrmance1" />
+                <img src="/images/GuidofPerformance/hcms1.png" alt="imageofGuid-perfomrmance1" />
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Statutory Compliance</h4>
                 <p>HR is responsible for ensuring the organization complies with all relevant laws. They ensure employee-related licenses and permissions are obtained, statutory reports are submitted, and legal requirements are met.</p>
                 <ul className="p-5">

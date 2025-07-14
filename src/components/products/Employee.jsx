@@ -77,7 +77,7 @@ function Employee() {
                     </div>
                     <div className="relative lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute -left-8 top-32 shap px-64 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
                     </div>
                 </div>
             </section>
@@ -89,7 +89,7 @@ function Employee() {
                     <div>
                         <h2 className='text-[#1d4076] font-bold text-3xl'>Experience seamless <span className='text-[#39bef4]'> Database Management</span>with us.</h2>
                         <p className='text-md mb-5'>Skip the confusion and manual effort. Human Maximizer Attendance Management Software helps you capture, track, and manage employee attendance the smart way without micromanaging.</p>
-                        <img src="/public/images/Leave/leave-attendence.jpg" alt="image" />
+                        <img src="//images/Leave/leave-attendence.jpg" alt="image" />
                     </div>
                     <div className='h-[70vh] overflow-y-scroll overflow-x-hidden p-5 lg:p-12 text-wrap'>
                         <div className='shadow-[0_0_10px_#ddd] p-5 rounded-xl'>

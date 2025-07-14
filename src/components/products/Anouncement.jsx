@@ -85,7 +85,7 @@ function Anouncement() {
                         </div>
                         <div className="relative lg:p-4 p-12 sm:p-8">
                             <div className="bg-[#8cb6f5] absolute -left-8 top-32 shap px-64 py-44">,</div>
-                            <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
+                            <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
                         </div>
                     </div>
                 </section>
@@ -138,27 +138,27 @@ function Anouncement() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-16">
                         {[
                             {
-                                image: "public/images/HrSoftware/easy-time-icon.png",
+                                image: "/images/HrSoftware/easy-time-icon.png",
                                 head: 'Building Trust and Transparency',
                                 para: "The fast growth of trust is hindered by the lack of timely and explicit notifications. When company regulations, changes or even company goals are disclosed to employees, they begin to feel disloyal to the corporation since they are no longer included in the framework that they perceive the business process to be conducted under. A culture of openness between management and employees could be possible as a result of the transparency."
                             },
                             {
-                                image: "public/images/HrSoftware/visibility-icon.png",
+                                image: "/images/HrSoftware/visibility-icon.png",
                                 head: 'Making the Communication Consistent',
                                 para: "Human Maximizer would derive this very functionality, which is consolidation of communication. So, basically the one single announcement that is made becomes common to all employees within the organization by using this system. Thus, the chances of miscommunications would be reduced. What this consistency would bring about is an avoidance of confusion, so no matter which department the person belongs to, whether he's in a different city or country, they all will be receiving the same message almost at the same time."
                             },
                             {
-                                image: "public/images/HrSoftware/custom-icon.png",
+                                image: "/images/HrSoftware/custom-icon.png",
                                 head: 'Promoting Employee Engagement',
                                 para: "Timely and relevant information would keep employees posted regularly and informed to be connected with the organizations' perspectives at a time. The one possible way of increasing employee engagement is making them understand what is going around the organization and how he or she fits into these changes. Such involvement is a look into an increased morale and productivity too . "
                             },
                             {
-                                image: "public/images/HrSoftware/dashboard-icon.png",
+                                image: "/images/HrSoftware/dashboard-icon.png",
                                 head: 'Increase Organizational Efficiency',
                                 para: "When businesses announce and categorize their internal communications, they increase their efficiency in delivering pieces of news to employees. Messages can then be structured and categorized by policy updates, team achievements or upcoming events can all be well-delivered to staff-undispersed. This minimizes noise and manages clutter while ensuring that no important messages are lost because of noise."
                             },
                             {
-                                image: "public/images/HrSoftware/apply-leave-icon.png",
+                                image: "/images/HrSoftware/apply-leave-icon.png",
                                 head: 'Enhancing Employee Recognition and Motivation',
                                 para: "Announcement management is one vehicle of creating an avenue for recognition of employee achievements and milestones. When success stories or personal achievements are effectively spread, it motivates and boosts the morale of other employees. Recognizing contributions creates an appreciation culture that maximizes human potential within an organization."
                             }

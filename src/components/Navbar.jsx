@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <header className="px-5 py-3 flex justify-between items-center bg-white shadow-md relative z-20">
       <div className="logo flex-shrink-0">
-        <img src="public/images/logo/hcm-logo.png" alt="logo" className="h-16" />
+        <img src="/images/logo/hcm-logo.png" alt="logo" className="h-16" />
       </div>
 
       {/* Mobile Hamburger Menu */}
@@ -67,7 +67,7 @@ function Navbar() {
                   </ul>
                 </div>
                 <div className="flex flex-col gap-3 items-center">
-                  <img src="public/images/logo/growth-chart.jpg" alt="Image" className="h-32" />
+                  <img src="/images/logo/growth-chart.jpg" alt="Image" className="h-32" />
                   <p className="font-bold text-2xl text-center leading-tight">Automate HR and<br />Payroll Process</p>
                   <span className="text-sm text-center">Drive people and business<br />growth in your company.</span>
                   <button className="bg-[#193f77] w-4/5 p-2 text-white rounded-2xl">Get a Demo</button>

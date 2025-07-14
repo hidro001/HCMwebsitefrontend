@@ -76,7 +76,7 @@ function Recruitment() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
                     </div>
                 </div>
             </section>
@@ -93,7 +93,7 @@ function Recruitment() {
                             <p>Our ATS integrates with job boards like Indeed, ZipRecruiter, and more, letting you manage posts and candidates on one platform. With over 150 integrations, you can also connect your tools and customize your hiring tech stack.</p>
                         </div>
                         <div>
-                            <img src="public/images/Requirement/Task_Management_-_Checklist2x (1).webp" alt="requirement-1" />
+                            <img src="/images/Requirement/Task_Management_-_Checklist2x (1).webp" alt="requirement-1" />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 shadow-[0_0_10px_#ddd] rounded-2xl mt-12 p-1 lg:p-8">
@@ -103,7 +103,7 @@ function Recruitment() {
                             <p>Send automated, personalized emails at every stage, and keep candidates in the loop without the extra work. Focus less on the busywork, and more on finding the right talent for the job and creating a great candidate experience.</p>
                         </div>
                         <div>
-                            <img src="public/images/Requirement/Task_Management_-_Labels2x.webp" alt="requirement-1" />
+                            <img src="/images/Requirement/Task_Management_-_Labels2x.webp" alt="requirement-1" />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 shadow-[0_0_10px_#ddd] rounded-2xl mt-12 p-1 lg:p-8">
@@ -113,7 +113,7 @@ function Recruitment() {
                             <p>Speed up the offer process with customizable offer letter templates that auto-populate candidate details for different positions, job types, and requirements. For the candidate, electronic signatures make accepting an offer as easy as sending an email.</p>
                         </div>
                         <div>
-                            <img src="public/images/Requirement/Task_Management_-_Calendar.webp" alt="requirement-1" />
+                            <img src="/images/Requirement/Task_Management_-_Calendar.webp" alt="requirement-1" />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 p-1 lg:p-8 mt-12">
@@ -123,7 +123,7 @@ function Recruitment() {
                             <p>Human Maximizer puts your hiring data at your fingertips. The Candidate Sources Report tracks where applicants come from, so you can optimize your channels. You can also identify bottlenecks and improve your hiring strategy with the Candidate Funnel report.</p>
                         </div>
                         <div>
-                            <img src="public/images/Requirement/Task_Management_-_Calendar.webp" alt="requirement-1" />
+                            <img src="/images/Requirement/Task_Management_-_Calendar.webp" alt="requirement-1" />
                         </div>
                     </div>
                 </div>

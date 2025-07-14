@@ -29,7 +29,7 @@ function LandingSection() {
 
                 <div className="bg-gray-300 rounded-xl shadow-xl p-4 z-10 h-fit mt-20">
                     <img
-                        src="public/images/home/hcm-dash-board.jpg"
+                        src="/images/home/hcm-dash-board.jpg"
                         alt="Dashboard"
                         className="object-contain rounded-xl h-fit w-[100vw]"
                     />

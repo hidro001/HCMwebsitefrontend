@@ -100,7 +100,7 @@ function ReportAnalytics() {
                     </div>
                     <div className="relative p-4 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute -left-8 top-32 shap px-64 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="h-90 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="h-90 z-50 sticky" />
                     </div>
                 </div>
             </section>
@@ -124,27 +124,27 @@ function ReportAnalytics() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 p-8 sm:p-16 justify-center">
                     {[
                         {
-                            image: "public/images/HrSoftware/easy-time-icon.png",
+                            image: "/images/HrSoftware/easy-time-icon.png",
                             head: 'Employee Relations Issues',
                             para: "Interpersonal conflicts, misunderstandings, or dissatisfaction with management can affect team dynamics and productivity."
                         },
                         {
-                            image: "public/images/HrSoftware/visibility-icon.png",
+                            image: "/images/HrSoftware/visibility-icon.png",
                             head: 'Payroll and Benefits Discrepancies',
                             para: "Errors in payroll and benefits administration can cause dissatisfaction and legal concerns."
                         },
                         {
-                            image: "public/images/HrSoftware/custom-icon.png",
+                            image: "/images/HrSoftware/custom-icon.png",
                             head: 'Performance Management Issue',
                             para: "Performance management challenges can arise from unclear expectations or inconsistent appraisals."
                         },
                         {
-                            image: "public/images/HrSoftware/dashboard-icon.png",
+                            image: "/images/HrSoftware/dashboard-icon.png",
                             head: 'Compliance Issues',
                             para: "Non-compliance with labor laws and regulations poses significant risks."
                         },
                         {
-                            image: "public/images/HrSoftware/apply-leave-icon.png",
+                            image: "/images/HrSoftware/apply-leave-icon.png",
                             head: 'Onboarding and Offboarding Issues',
                             para: "Effective onboarding and offboarding ensure a smooth transition for employees."
                         }

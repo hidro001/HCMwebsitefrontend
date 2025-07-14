@@ -26,7 +26,7 @@ function Login() {
 
                 <div className="p-4 sm:p-0 text-center">
                     <img
-                        src="public/images/login.webp"
+                        src="/images/login.webp"
                         alt="login-image"
                         className="h-[35vw] sm:h-auto max-w-full mx-auto"
                     />

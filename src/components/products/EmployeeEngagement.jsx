@@ -78,7 +78,7 @@ function EmployeeEngagement() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
                     </div>
                 </div>
             </section>
@@ -127,7 +127,7 @@ function EmployeeEngagement() {
                             <p>Simplify your internal communications and increase employee engagement with a central platform for announcements, updates, and recognition—keeping everyone included and in the know.</p>
                         </div>
                         <div>
-                            <img src="public/images/Empoyee-engagement/hrfeatures2.png" alt="hrfearure1" />
+                            <img src="/images/Empoyee-engagement/hrfeatures2.png" alt="hrfearure1" />
                         </div>
                     </div>
                     <div className="grid grid grid-cols-1 lg:grid-cols-2 gap-5 shadow-[0_0_10px_#ddd] rounded-2xl p-5 lg:p-16 mt-12">
@@ -137,7 +137,7 @@ function EmployeeEngagement() {
                             <p>Simplify your internal communications and increase employee engagement with a central platform for announcements, updates, and recognition—keeping everyone included and in the know.</p>
                         </div>
                         <div>
-                            <img src="public/images/Empoyee-engagement/hrfeatures3.png" alt="hrfearure1" />
+                            <img src="/images/Empoyee-engagement/hrfeatures3.png" alt="hrfearure1" />
                         </div>
                     </div>
                     <div className="grid grid grid-cols-1 lg:grid-cols-2 gap-5 shadow-[0_0_10px_#ddd] rounded-2xl p-5 lg:p-16 mt-12">
@@ -147,7 +147,7 @@ function EmployeeEngagement() {
                             <p>Simplify your internal communications and increase employee engagement with a central platform for announcements, updates, and recognition—keeping everyone included and in the know.</p>
                         </div>
                         <div>
-                            <img src="public/images/Empoyee-engagement/hrfeatures3.png" alt="hrfearure1" />
+                            <img src="/images/Empoyee-engagement/hrfeatures3.png" alt="hrfearure1" />
                         </div>
                     </div>
                     <div className="grid grid grid-cols-1 lg:grid-cols-2 gap-5 shadow-[0_0_10px_#ddd] rounded-2xl p-5 lg:p-16 mt-12">
@@ -157,7 +157,7 @@ function EmployeeEngagement() {
                             <p>Simplify your internal communications and increase employee engagement with a central platform for announcements, updates, and recognition—keeping everyone included and in the know.</p>
                         </div>
                         <div className="p-3">
-                            <img src="public/images/Empoyee-engagement/hrfeatures1.png" alt="hrfearure1" />
+                            <img src="/images/Empoyee-engagement/hrfeatures1.png" alt="hrfearure1" />
                         </div>
                     </div>
                 </div>

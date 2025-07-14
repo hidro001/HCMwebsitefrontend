@@ -69,14 +69,14 @@ function HRsoftware() {
               <span className='text-sm '>Say goodbye to scattered systems and hello to one centralized platform for all your employee data. Everything stays organized, secure, easy to access, and fully compliant with privacy laws.</span>
             </div>
             <div>
-              <img src="public/images/HrSoftware/hrfeatures1.png" alt="hrfeatures1" />
+              <img src="/images/HrSoftware/hrfeatures1.png" alt="hrfeatures1" />
             </div>
           </div>
         </div>
         <div className='p-5 lg:p-20'>
           <div className='grid lg:grid-cols-2 p-5 lg:p-12 gap-8 rounded-xl shadow-[0_0_10px_#ddd]'>
             <div>
-              <img src="public/images/HrSoftware/hrfeatures2.png" alt="hrfeatures1" />
+              <img src="/images/HrSoftware/hrfeatures2.png" alt="hrfeatures1" />
             </div>
             <div className='flex flex-col gap-3 justify-center p-5 lg:p-16'>
               <p className='text-[#39bef4] text-xl font-semibold'>Ask Human Maximizer</p>
@@ -93,14 +93,14 @@ function HRsoftware() {
               <span className='text-sm '>Transform your HR data into smart decisions using built-in and customizable reports. Whether it's spotting workforce trends or staying on top of compliance, you'll get real-time insights instantly—no time wasted on manual work.</span>
             </div>
             <div>
-              <img src="public/images/HrSoftware/hrfeatures3.png" alt="hrfeatures1" />
+              <img src="/images/HrSoftware/hrfeatures3.png" alt="hrfeatures1" />
             </div>
           </div>
         </div>
         <div className='p-5 lg:p-20'>
           <div className='grid lg:grid-cols-2 p-5 lg:p-12 gap-8 rounded-xl shadow-[0_0_10px_#ddd]'>
             <div>
-              <img src="public/images/HrSoftware/hrfeatures4.png" alt="hrfeatures1" />
+              <img src="/images/HrSoftware/hrfeatures4.png" alt="hrfeatures1" />
             </div>
             <div className='flex flex-col gap-3 justify-center p-5 lg:p-16'>
               <p className='text-[#39bef4] text-xl font-semibold'>Workflows & Approvals</p>
@@ -184,42 +184,42 @@ function HRsoftware() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 p-16">
             {[
               {
-                image:"public/images/HrSoftware/easy-time-icon.png" , 
+                image:"/images/HrSoftware/easy-time-icon.png" , 
                 head:'Real-Time Data Visualization' ,
                 para:'Using Human Maximizer software, interactive graphs, dashboards, and charts can be created, making complex data easier to comprehend.'
               },
               {
-                image:"public/images/HrSoftware/visibility-icon.png" , 
+                image:"/images/HrSoftware/visibility-icon.png" , 
                 head:'Assuring the security of data' ,
                 para:'With the power of real-time analytics, Human Maximizer allows you to harness the power of robust data security measures.'
               },
               {
-                image:"public/images/HrSoftware/custom-icon.png" , 
+                image:"/images/HrSoftware/custom-icon.png" , 
                 head:'User-Friendly Interface' ,
                 para:"Human Maximizer software's intuitive design reduces the learning curve and encourages broad adoption, reducing the learning curve for experts and newcomers alike."
               },
               {
-                image:"public/images/HrSoftware/dashboard-icon.png" , 
+                image:"/images/HrSoftware/dashboard-icon.png" , 
                 head:'Custom Dashboards' ,
                 para:'With Human Maximizer Real-time Visual Analytics software, you can create customized dashboards to track business-critical performance indicators (KPIs).'
               },
               {
-                image:"public/images/HrSoftware/apply-leave-icon.png" , 
+                image:"/images/HrSoftware/apply-leave-icon.png" , 
                 head:'Advanced Reporting' ,
                 para:'Create comprehensive reports based on in-depth data analysis and detailed decision-making based on the analysis, and schedule them for delivery automatically.'
               },
               {
-                image:"public/images/HrSoftware/sick-leave-icon.png" , 
+                image:"/images/HrSoftware/sick-leave-icon.png" , 
                 head:'Third-Party Integrations' ,
                 para:'Integrated with other popular software tools and platforms, such as CRM systems and ERP systems, Human Maximizer software can help automate your workflow and analyze data more efficiently.'
               },
               {
-                image:"public/images/HrSoftware/proactively-icon.png" , 
+                image:"/images/HrSoftware/proactively-icon.png" , 
                 head:'RReal-Time Alert' ,
                 para:"Setting up alerts for specific conditions or thresholds in Human Maximizer's real-time analytics software helps you stay on top of critical changes."
               },
               {
-                image:"public/images/HrSoftware/attendance-icon.png" , 
+                image:"/images/HrSoftware/attendance-icon.png" , 
                 head:'Scalable solutions' ,
                 para:"With Human Maximizer's software, you can scale to meet your organization's needs, accommodating increasing users and data."
               },

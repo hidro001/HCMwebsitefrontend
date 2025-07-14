@@ -75,7 +75,7 @@ function Task() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="public/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
                     </div>
                 </div>
             </section>
@@ -93,7 +93,7 @@ function Task() {
                             <p className="text-lg mt-3">Human Maximizer advanced checklists give you the power to add more context to your tasks by assigning team members and due dates to checklist items, increasing visibility and keeping your team accountable.</p>
                         </div>
                         <div>
-                            <img src="public/images/Task/Task_Management_-_Checklist2x.webp" alt="task-image1" />
+                            <img src="/images/Task/Task_Management_-_Checklist2x.webp" alt="task-image1" />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 shadow-[0_0_10px_#ddd] rounded-2xl p-1 md:p-5 mt-16">
@@ -102,7 +102,7 @@ function Task() {
                             <p className="text-lg mt-3 ">Prioritize with labels to identify what is high, medium, or low priority and bring an extra layer of shared understanding to your tasks. You can even filter by a certain label to only view cards associated with the label you want to view.</p>
                         </div>
                         <div>
-                            <img src="public/images/Task/Task_Management_-_Labels2x.webp" alt="task-image2" />
+                            <img src="/images/Task/Task_Management_-_Labels2x.webp" alt="task-image2" />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 p-0 lg:p-5 mt-16">
@@ -111,7 +111,7 @@ function Task() {
                             <p className="text-lg mt-3 text-md text-pretty">Visualize checklist items and cards with due dates in Calendar View, showing what tasks are due in the days and weeks ahead. Cards will be arranged according to their due date and will display any labels, members, or checklists added to them.</p>
                         </div>
                         <div>
-                            <img src="public/images/Task/Task_Management_-_Calendar.webp" alt="task-image3" />
+                            <img src="/images/Task/Task_Management_-_Calendar.webp" alt="task-image3" />
                         </div>
                     </div>
 
@@ -131,27 +131,27 @@ function Task() {
                     <div className="grid grid-cols-1 lg:grid-cols-3 justify-center gap-8 p-16">
                         {[
                             {
-                                image: "public/images/HrSoftware/easy-time-icon.png",
+                                image: "/images/HrSoftware/easy-time-icon.png",
                                 head: 'Easy Time-off Booking for Employees',
                                 para: "With Human Maximizer, you can track your vacation easily. For your employees, company, and HR needs, the vacation tracker and who's off the calendar provides a complete picture."
                             },
                             {
-                                image: "public/images/HrSoftware/visibility-icon.png",
+                                image: "/images/HrSoftware/visibility-icon.png",
                                 head: 'Increased visibility',
                                 para: 'WWith Human Maximizer, you can instantly see who is on leave today, tomorrow, or in the future, increasing transparency and strengthening your workforce.'
                             },
                             {
-                                image: "public/images/HrSoftware/custom-icon.png",
+                                image: "/images/HrSoftware/custom-icon.png",
                                 head: 'Proactively Take Action',
                                 para: "Using Human Maximizer, you can dive deep into data and identify trends and insights to make strategic and impactful decisions."
                             },
                             {
-                                image: "public/images/HrSoftware/dashboard-icon.png",
+                                image: "/images/HrSoftware/dashboard-icon.png",
                                 head: 'Customization Capabilities',
                                 para: "The software can be tailored to meet your organization's leave policies' unique needs. Our software allows you to manage complex approval workflows and specific accrual rules."
                             },
                             {
-                                image: "public/images/HrSoftware/apply-leave-icon.png",
+                                image: "/images/HrSoftware/apply-leave-icon.png",
                                 head: 'All-in-one dashboard',
                                 para: "While applying for leave, employees can see their leave balance. It's good to have access to HR and immediate managers so that they have clarity while approval is given."
                             },

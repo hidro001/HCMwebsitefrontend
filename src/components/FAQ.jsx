@@ -38,7 +38,7 @@ function FAQ() {
             <section className="bg-[#1d4076] text-white">
                 <h3 className="text-4xl text-center font-bold">Frequently Asked Questions</h3>
                 <p className="text-center text-lg mt-4">Here are the answers to some of the most common questions about our platform</p>
-                <img src="/public/images/newbg.png" alt="partition" className="w-full mt-6" />
+                <img src="//images/newbg.png" alt="partition" className="w-full mt-6" />
             </section>
 
             <section className="p-8">

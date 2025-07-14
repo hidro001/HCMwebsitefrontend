@@ -6,7 +6,7 @@ function GuidOfPerformance() {
             <section className='bg-[#1d4076] text-white'>
                 <h3 className='text-4xl text-center p-3 font-bold'>A Guide to Performance Management</h3>
                 <p className='text-center text-lg'>Everything you need to know about Human Capital Management Systems (HCMS)</p>
-                <img src="/public/images/newbg.png" alt="partition" />
+                <img src="//images/newbg.png" alt="partition" />
             </section>
             <section className="px-6 sm:px-12 md:px-32 flex flex-col gap-4 text-md">
                 <h1 className="text-3xl sm:text-4xl font-bold">What is Performance Management?</h1>
@@ -26,7 +26,7 @@ function GuidOfPerformance() {
             <section className="px-6 sm:px-12 md:px-32 flex flex-col gap-4 mt-4 text-md">
                 <h3 className="font-bold text-3xl sm:text-4xl">What Are the Common Functions of HRMS Systems?</h3>
                 <p>Human Resource Management (HRM, or simply HR) is a function in every organization which is designed to increase employee performance in aligning with employer's strategic objectives. Primarily focused on how people are managed within organizations, human resource management is driven by systems and policies. HR involves the following sub-functions and an HRMS helps automate and streamline them:</p>
-                <img src="public/images/GuidofPerformance/hcms.png" alt="imageofguidinperformance" />
+                <img src="/images/GuidofPerformance/hcms.png" alt="imageofguidinperformance" />
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Manpower Planning</h4>
                 <p>Human Resource planning mainly emphasizes the estimation of resource required in order to achieve the desired business results. HR plans can be either short term/immediate or long term/strategic. A good HRMS can certainly enable the HR team to execute these plans swiftly and effectively.</p>
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Recruitment</h4>
@@ -56,7 +56,7 @@ function GuidOfPerformance() {
                 <p>One of the functions of an HR Department is to enable and ensure a regular channel of communication between the organization and the employees. Employees need to be made aware of various policies like the Leave Policy, Attendance Policy, Travel Policy, Dress Code, etc. All of this will be usually available in the company's HRMS software.</p>
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Employee Engagement</h4>
                 <p>HR Departments are steadily undergoing a change from being a very transaction-oriented function to a more strategic one. One of the keys to the success of an organization is to have employees whose requirements and goals are aligned to those of the organization. HR Departments play a vital role in building this alignment.</p>
-                <img src="public/images/GuidofPerformance/hcms1.png" alt="imageofGuid-perfomrmance1" />
+                <img src="/images/GuidofPerformance/hcms1.png" alt="imageofGuid-perfomrmance1" />
                 <h4 className="font-bold text-3xl sm:text-4xl mt-6">Statutory Compliance</h4>
                 <p>Another critical function of the HR Department is to ensure that the organization is compliant with all the relevant laws of the region (State/Country). They need to ensure that they are aware of these laws and take up all activities that are needed to ensure that this is fulfilled.</p>
                 <ul className="p-5">
