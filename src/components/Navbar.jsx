@@ -44,7 +44,7 @@ function Navbar() {
                 <div>
                   <h2 className="font-bold">Products</h2>
                   <ul className="flex flex-col items-start gap-3 mt-4 text-[#193f77]">
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaUser /></span><a href="/hr-management">HR Software</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaUser /></span><a href="/hr-software">HR Software</a></li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaCoins /></span><a href="/payroll">Payroll Management</a></li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaCalendarDay /></span><a href="/leave">Leave Management</a></li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaClock /></span><a href="/attendence">Attendance Management</a></li>
