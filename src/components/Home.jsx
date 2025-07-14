@@ -205,7 +205,7 @@ export default function Home() {
 
           <div className='flex justify-center items-center'>
             <img
-              src="public/images/home/hcm-dash-board.jpg"
+              src="/images/home/hcm-dash-board.jpg"
               alt="Dashboard Features"
               className="rounded-xl shadow-lg mx-auto"
             />
