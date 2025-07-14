@@ -289,7 +289,7 @@ function Performance() {
                 <div>
                     <div className='absolute left-1/2 -top-4 rounded-full bg-[#f56d6d] opacity-20 h-24 w-24 animate-slide'></div>
                     <div className='absolute -left-3 -top-1 rounded-full bg-[#39c9bb] opacity-20 h-24 w-24 animate-bounce'></div>
-                    <div className='absolute -bottom-5 rounded-full bg-[#f56d6d] opacity-20 h-24 w-24 animate-slide'></div>
+                    <div className='w-[20%] relative top-[32rem] -left-35'><div className=" absolute h-28 w-28 rounded-full bg-[#f56d6d] opacity-20 animate-slide" /></div>
                     <div className='absolute top-1/2 -right-5 bg-[#39c9bb] opacity-20 h-28 w-28 animate-spin'></div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:p-4">
@@ -300,7 +300,7 @@ function Performance() {
                     </div>
                     <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
                         <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
-                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-50 sticky" />
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-0 sticky" />
                     </div>
                 </div>
             </section>
@@ -455,38 +455,38 @@ function Performance() {
                     </div>
                 </div>
             </section>
-                <section className='p-5 overflow-hidden lg:px-24 py-8'>
-                    <h3 className='text-[#1d4076] font-bold text-3xl text-center mb-8'>Why Choose Human Maximizer<span className='text-[#39bef4]'>Performance Management?</span></h3>
-                    <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-6'>
-                        {
-                            [
-                                {
-                                    head: 'Easy for employees & HR',
-                                    para: 'Reviews should take minutes, not hours. Make the performance process easy on your people.'
-                                },
-                                {
-                                    head: 'Data-backed decisions',
-                                    para: 'Access company and employee performance data to see top performers and struggling employees.'
-                                },
-                                {
-                                    head: 'Better employee engagement',
-                                    para: 'Improve participation and morale with clear goals, growth paths, and recognition.'
-                                },
-                                {
-                                    head: 'Tools for real growth',
-                                    para: 'Help employees grow and stay accountable with peer feedback, manager reviews, and goals.'
-                                },
-                            ].map((data, index) => (
-                                <div className='border rounded-3xl flex flex-col gap-3 justify-center items-center border-gray-300 p-8' key={index}>
-                                    <div className='bg-[#1d40761c] rounded-full p-4 flex justify-center items-center'><FaNoteSticky className='text-[#1d4076] text-2xl' /></div>
-                                    <h4 className='text-xl font-bold text-[#1d4076] text-center'>{data.head}</h4>
-                                    <p className='text-md text-center'>{data.para}</p>
-                                </div>
-                            )
-                            )}
-                    </div>
+            <section className='p-5 overflow-hidden lg:px-24 py-8'>
+                <h3 className='text-[#1d4076] font-bold text-3xl text-center mb-8'>Why Choose Human Maximizer<span className='text-[#39bef4]'>Performance Management?</span></h3>
+                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-6'>
+                    {
+                        [
+                            {
+                                head: 'Easy for employees & HR',
+                                para: 'Reviews should take minutes, not hours. Make the performance process easy on your people.'
+                            },
+                            {
+                                head: 'Data-backed decisions',
+                                para: 'Access company and employee performance data to see top performers and struggling employees.'
+                            },
+                            {
+                                head: 'Better employee engagement',
+                                para: 'Improve participation and morale with clear goals, growth paths, and recognition.'
+                            },
+                            {
+                                head: 'Tools for real growth',
+                                para: 'Help employees grow and stay accountable with peer feedback, manager reviews, and goals.'
+                            },
+                        ].map((data, index) => (
+                            <div className='border rounded-3xl flex flex-col gap-3 justify-center items-center border-gray-300 p-8' key={index}>
+                                <div className='bg-[#1d40761c] rounded-full p-4 flex justify-center items-center'><FaNoteSticky className='text-[#1d4076] text-2xl' /></div>
+                                <h4 className='text-xl font-bold text-[#1d4076] text-center'>{data.head}</h4>
+                                <p className='text-md text-center'>{data.para}</p>
+                            </div>
+                        )
+                        )}
+                </div>
 
-                </section>
+            </section>
             <section className="bg-[#8cb6f5] overflow-hidden py-20 px-4" style={{ clipPath: 'polygon(1.5% 0, 70% 3%, 70% 13%, 97% 9%, 97.5% 89%, 40% 100%, 39.9% 90%, 1% 88%)' }}>
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-center text-2xl md:text-3xl font-bold text-white mb-8">

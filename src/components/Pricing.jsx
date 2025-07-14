@@ -83,7 +83,7 @@ function Pricing() {
             <section className='bg-[#1d4076] text-white text-center'>
                 <h3 className='text-4xl font-bold'>Plans & Pricing</h3>
                 <p className='text-lg mt-4'>Have any questions about our product? We're here to help.</p>
-                <img src="//images/newbg.png" alt="partition" className="w-full mt-6" />
+                <img src="/images/newbg.png" alt="partition" className="w-full mt-6" />
             </section>
             <section>
                 <div className='flex flex-wrap gap-4 ml-8 mb-8'>

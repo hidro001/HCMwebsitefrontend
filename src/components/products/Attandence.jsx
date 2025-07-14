@@ -298,18 +298,18 @@ function Attandence() {
                 <div>
                     <div className='absolute left-1/2 -top-4 rounded-full bg-[#f56d6d] opacity-20 h-24 w-24 animate-slide'></div>
                     <div className='absolute -left-3 -top-1 rounded-full bg-[#39c9bb] opacity-20 h-24 w-24 animate-bounce'></div>
-                    <div className='absolute -bottom-5 rounded-full bg-[#f56d6d] opacity-20 h-24 w-24 animate-slide'></div>
+                    <div className='w-[20%] relative top-[32rem] -left-35'><div className=" absolute h-28 w-28 rounded-full bg-[#f56d6d] opacity-20 animate-slide" /></div>
                     <div className='absolute top-1/2 -right-5 bg-[#39c9bb] opacity-20 h-28 w-28 animate-spin'></div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:p-4">
-                    <div className="p-10 z-10 flex flex-col gap-4">
-                        <h2 className="text-head-color text-3xl sm:text-4xl font-bold">Business-friendly <span className="text-[#39bef4]">Performance Management</span> for your workplace</h2>
+                    <div className="p-16 z-10 flex flex-col gap-4">
+                        <h2 className="text-head-color text-3xl sm:text-4xl font-bold">Business-friendly <span className="text-[#39bef4]">Attendence Management</span> for your workplace</h2>
                         <p className="text-base sm:text-lg">The Human Maximizer software's performance management feature monitors, assesses, and improves worker performance while coordinating goals with corporate objectives for ongoing development.</p>
                         <button className="bg-[#1d4076] w-fit text-white p-3 px-6 rounded-full mt-4">Book a Demo</button>
                     </div>
-                    <div className="relative lg:p-4 p-12 sm:p-8">
-                        <div className="bg-[#8cb6f5] absolute -left-8 top-32 shap px-64 py-44">,</div>
-                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 sticky" />
+                    <div className="relative flex justify-center lg:p-4 p-12 sm:p-8">
+                        <div className="bg-[#8cb6f5] absolute  top-32 shap px-72 py-44">,</div>
+                        <img src="/images/performance/attendance-management.png" alt="image" className="lg:h-90 lg:ml-10 z-0 sticky" />
                     </div>
                 </div>
             </section>
@@ -322,7 +322,7 @@ function Attandence() {
                     <div>
                         <h2 className='text-[#1d4076] font-bold text-3xl'>Features that Make<span className='text-[#39bef4]'> Attendance  Management</span>Hassle-Free.</h2>
                         <p className='text-md mb-5'>Skip the confusion and manual effort. Human Maximizer Attendance Management Software helps you capture, track, and manage employee attendance the smart way without micromanaging.</p>
-                        <img src="//images/Leave/leave-attendence.jpg" alt="image" />
+                        <img src="/images/Leave/leave-attendence.jpg" alt="image" />
                     </div>
                     <div className='h-[70vh] overflow-y-scroll p-3 md:p-12'>
                         <div className='shadow-[0_0_10px_#ddd] p-5 rounded-xl'>

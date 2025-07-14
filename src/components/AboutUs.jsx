@@ -47,7 +47,7 @@ function AboutUs() {
             <section className='bg-[#1d4076] text-white text-center'>
                 <h3 className='text-4xl font-bold'>The Smarter Way to Payroll <span className='text-[#39bef4]'>Human Maximizers</span></h3>
                 <p className='text-lg mt-4'>Everything you need to know about Human Capital Management Systems (HCMS)</p>
-                <img src="//images/newbg.png" alt="partition" className="w-full mt-6" />
+                <img src="/images/newbg.png" alt="partition" className="w-full mt-6" />
             </section>
 
             <section>

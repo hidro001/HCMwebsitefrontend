@@ -314,7 +314,7 @@ function Leave() {
                     <div>
                         <h2 className='text-[#1d4076] font-bold text-3xl'>Features that Make <span className='text-[#39bef4]'> Leave Management</span> Hassle-Free</h2>
                         <p className='text-md mb-5'>Skip the confusion and manual effort. Human Maximizer Attendance Management Software helps you capture, track, and manage employee attendance the smart way without micromanaging.</p>
-                        <img src="//images/Leave/leave-attendence.jpg" alt="image" />
+                        <img src="/images/Leave/leave-attendence.jpg" alt="image" />
                     </div>
                     <div className='h-[70vh] overflow-y-scroll overflow-x-hidden p-5 lg:p-12'>
                         <div className='shadow-[0_0_10px_#ddd] p-5 rounded-xl'>

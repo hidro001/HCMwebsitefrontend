@@ -25,9 +25,9 @@ function Navbar() {
   );
 
   return (
-    <header className="px-5 py-3 flex justify-between items-center bg-white shadow-md relative z-20">
+    <header className="px-24 py-3 flex justify-between items-center bg-white shadow-md relative z-30">
       <div className="logo flex-shrink-0">
-        <img src="/images/logo/hcm-logo.png" alt="logo" className="h-16" />
+        <a href="/"><img src="/images/logo/hcm-logo.png" alt="logo" className="h-16" /></a>
       </div>
 
       <button className="md:hidden text-2xl" onClick={() => setMobileOpen(!mobileOpen)}>
@@ -52,7 +52,7 @@ function Navbar() {
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaUsers /></span><a href="/employee">Employee Data</a></li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaUserClock /></span><a href="/employee-engagement">Employee Engagement</a></li>
                     <li className="flex items-center gap-3"><span className="icon-circle"><FaArrowsRotate /></span><a href="/task">Task Management</a></li>
-                    <li className="flex items-center gap-3"><span className="icon-circle"><FaMagnifyingGlass /></span><a href="/recruitement">Recruitment Software</a></li>
+                    <li className="flex items-center gap-3"><span className="icon-circle"><FaMagnifyingGlass /></span><a href="/recruitment">Recruitment Software</a></li>
                   </ul>
                 </div>
                 <div>
@@ -74,16 +74,20 @@ function Navbar() {
             </div>
           </li>
 
-          {["About Us", "Pricing", "FAQs"].map((item, idx) => (
+          {[
+            {name: "About Us" , link: '/about'},
+            {name: "Pricing", link: '/pricing'},
+            {name: "FAQ", link: '/faq'},
+            ].map((item, idx) => (
             <li key={idx} className={navItemClass}>
-              <span className="relative group">{item} {underlineSpan}</span>
+              <span className="relative group"><a href={item.link}>{item.name}</a></span>
             </li>
           ))}
 
 
           <li onClick={() => setOpenDropdown(openDropdown === 'resources' ? null : 'resources')} className={navItemClass}>
             <span className="relative group flex items-center gap-2">Resources <FaCaretDown className="text-head-color" /></span>
-            <div className={`absolute top-full left-0 w-full md:w-[45vw] bg-white shadow-lg p-5 rounded-lg z-10 origin-top transition-transform transition-opacity duration-300 ease-in-out transform ${openDropdown === 'resources' ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0 pointer-events-none'
+            <div className={`absolute top-full left-0 w-full md:w-[45vw] bg-white shadow-lg p-5 rounded-lg z-50 origin-top transition-transform transition-opacity duration-300 ease-in-out transform ${openDropdown === 'resources' ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0 pointer-events-none'
               }`}>
               <div className="flex flex-col md:flex-row justify-between">
                 <div>

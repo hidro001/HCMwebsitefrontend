@@ -6,11 +6,11 @@
   --color-para-color: #39BEF4;
 }
 
-body{
-   font-family: "Bricolage Grotesque", sans-serif;
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 
-.root{
+.root {
   overflow: hidden;
 }
 
@@ -28,8 +28,18 @@ body{
   animation: animate-slide-in linear 1.5s infinite;
 }
 
-.shap{
+.shap {
   clip-path: polygon(1.5% 0, 70% 3%, 70% 13%, 97% 9%, 97.5% 89%, 40% 100%, 39.9% 90%, 1% 88%);
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: #040d19;
+  z-index: 1;
 }
 
 @keyframes animate-slide-in {

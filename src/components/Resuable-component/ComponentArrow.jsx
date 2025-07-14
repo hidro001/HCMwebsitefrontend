@@ -16,7 +16,7 @@ function ComponentArrow({ steps }) {
                         <img
                             src={
                                 index === 0
-                                    ? '/assets/images/componentArrow/compensation.png'
+                                    ? '/images/componentArrow/compensation.png'
                                     : index === 1
                                         ? '/images/componentArrow/leadership-training.png'
                                         : '/images/componentArrow/corporate-programs.png'

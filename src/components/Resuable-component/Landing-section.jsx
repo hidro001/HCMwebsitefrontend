@@ -4,10 +4,10 @@ function LandingSection() {
     return (
         <section className="partition_slide overflow-hidden relative before:absolute  before:inset-0 before:bg-[#e0eef9]  before:opacity-100">
             <div>
-                <div className="absolute -top-10 -left-10 h-28 w-28 rounded-full bg-[#39c9bb] opacity-50 animate-bounce z-0" />
-                <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 h-28 w-28 rounded-full bg-[#f56d6d] opacity-50 animate-slide z-0" />
-                <div className="absolute top-[30%] right-0 h-28 w-28 bg-[#39c9bb] opacity-50 animate-[spin_2s_linear_infinite] z-0" />
-                <div className="absolute top-[70%] left-0 h-28 w-28 rounded-full bg-[#f56d6d] opacity-50 animate-slide z-0" />
+                <div className="absolute -top-10 -left-10 h-28 w-28 rounded-full bg-[#39c9bb] opacity-20 animate-bounce z-0" />
+                <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 h-28 w-28 rounded-full bg-[#f56d6d] opacity-20 animate-slide z-0" />
+                <div className="absolute top-[30%] -right-4 h-28 w-28 bg-[#39c9bb] opacity-20 animate-[spin_2s_linear_infinite] z-0" />
+                <div className='w-[20%] relative top-[32rem] -left-35'><div className=" absolute h-28 w-28 rounded-full bg-[#f56d6d] opacity-20 animate-slide" /></div>
             </div>
 
             <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-centepr gap-10 relative ">

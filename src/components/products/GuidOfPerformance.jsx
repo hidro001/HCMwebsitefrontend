@@ -6,7 +6,7 @@ function GuidOfPerformance() {
             <section className='bg-[#1d4076] text-white'>
                 <h3 className='text-4xl text-center p-3 font-bold'>A Guide to Performance Management</h3>
                 <p className='text-center text-lg'>Everything you need to know about Human Capital Management Systems (HCMS)</p>
-                <img src="//images/newbg.png" alt="partition" />
+                <img src="/images/newbg.png" alt="partition" />
             </section>
             <section className="px-6 sm:px-12 md:px-32 flex flex-col gap-4 text-md">
                 <h1 className="text-3xl sm:text-4xl font-bold">What is Performance Management?</h1>

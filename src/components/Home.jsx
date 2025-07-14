@@ -23,6 +23,7 @@ import { IoIosLock } from "react-icons/io";
 
 export default function Home() {
   const [openIndex, setOpenIndex] = useState(null);
+  const [activeTab, setActiveTab] = useState('HR Director');
   const [tag, setTag] = useState('IT Director')
 
   const steps = [
@@ -136,22 +137,27 @@ export default function Home() {
 
   const features = [
     {
+      id : 1,
       title: 'Human Resources Management',
       content: `Create org hierarchies, personalize the home page & set form & report rights for each user level. Generate N number of HRIS reports using the report designer & employee search engine.`,
     },
     {
+      id: 2,
       title: 'Payroll Management',
       content: 'Create org hierarchies, personalize the home page & set form & report rights for each user level. Generate N number of HRIS reports using the report designer & employee search engine.',
     },
     {
+      id: 3,
       title: 'Leave Management',
       content: 'Create org hierarchies, personalize the home page & set form & report rights for each user level. Generate N number of HRIS reports using the report designer & employee search engine.',
     },
     {
+      id: 4,
       title: 'Attendance Management',
       content: 'Create org hierarchies, personalize the home page & set form & report rights for each user level. Generate N number of HRIS reports using the report designer & employee search engine.',
     },
     {
+      id: 5,
       title: 'Performance Management',
       content: 'Create org hierarchies, personalize the home page & set form & report rights for each user level. Generate N number of HRIS reports using the report designer & employee search engine.',
     },
@@ -165,8 +171,8 @@ export default function Home() {
   return (
     <>
       <LandingSection />
-      <section className="bg-[#1d40760f] p-5">
-        <div className="grid grid-cols-1 md:grid-cols-2 py-16  mx-auto gap-10 ">
+      <section className="bg-[#1d40760f] px-12 py-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 py-16  mx-auto gap-16 ">
           <div>
             <p className="text-lg">Salient Features</p>
             <h2 className="text-4xl font-bold text-[#193f77] mt-2">Major Features</h2>
@@ -174,7 +180,7 @@ export default function Home() {
 
             <div className="w-full divide-y divide-gray-200 rounded-md mt-4">
               {features.map((item, index) => (
-                <div key={index} className=" py-4">
+                <div key={index} className=" py-4" onClick={()=> setActiveTab(item.id)}>
                   <div
                     onClick={() => toggle(index)}
                     className="flex justify-between items-center cursor-pointer"
@@ -205,7 +211,7 @@ export default function Home() {
 
           <div className='flex justify-center items-center'>
             <img
-              src="/images/home/hcm-dash-board.jpg"
+              src={`/images/home/${activeTab === 1 ? 'hr-management.jpg' : activeTab === 2 ? 'payrol-management.png' : activeTab === 3 ? 'leave-management.png' : activeTab === 4 ? 'attendence-management.jpg' : 'performance-management.png'}`}
               alt="Dashboard Features"
               className="rounded-xl shadow-lg mx-auto"
             />

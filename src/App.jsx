@@ -47,9 +47,9 @@ function App() {
         <Route path="/anouncement" element={< Anouncement/>} />
         <Route path="/ticket" element={< Ticket/>} />
         <Route path="/report" element={<ReportAnalytics/>} />
-        <Route path="/guidtoperformance" element={<GuidOfPerformance/>} />
-        <Route path="/guidtopayroll" element={<GuidOfPayroll/>} />
-        <Route path="/guidtoattandence" element={<GuidofAttandence/>} />
+        <Route path="/guidetoperformance" element={<GuidOfPerformance/>} />
+        <Route path="/guidetopayroll" element={<GuidOfPayroll/>} />
+        <Route path="/guidetoattandence" element={<GuidofAttandence/>} />
         <Route path="/hrms" element={<Hcms/>} />
         <Route path="/partners" element={<Partners/>} />
         <Route path="/payroll" element={<Payroll/>} />

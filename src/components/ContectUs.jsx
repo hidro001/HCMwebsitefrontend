@@ -7,7 +7,7 @@ function ContectUs() {
             <section className='bg-[#1d4076] text-white '>
                 <h3 className='text-4xl text-center p-3 font-bold'>Contact Us</h3>
                 <p className='text-center text-lg'>Have any questions about our product? We’re here to help.</p>
-                <img src="//images/newbg.png" alt="partition" className="w-full mt-4" />
+                <img src="/images/newbg.png" alt="partition" className="w-full mt-4" />
             </section>
             <section className='p-3'>
                 <h2 className='text-3xl font-bold text-[#1d4076] text-center m-4'>GET In Touch</h2>
