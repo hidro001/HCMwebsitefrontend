@@ -119,10 +119,10 @@ function Navbar() {
       </div>
 
       <div className="login mt-4 md:mt-0 hidden sm:block">
-        <button className="relative border-l-2 border-blue-900 border-r-2 border-blue-900 p-3 font-bold flex gap-3 items-center shadow-lg overflow-hidden group">
-          <span className="z-10 flex text-head-color group-hover:text-white items-center gap-3"><FaUser className="text-blue-900 group-hover:text-white" /> <a href="/login">Login</a></span>
+        <a href="/login" className="relative border-l-2 border-blue-900 border-r-2 border-blue-900 p-3 font-bold flex gap-3 items-center shadow-lg overflow-hidden group">
+          <span className="z-10 flex text-head-color group-hover:text-white items-center gap-3"><FaUser className="text-blue-900 group-hover:text-white" /> Login</span>
           <span className="absolute inset-0 w-full h-full bg-blue-900 transform scale-x-0 origin-center group-hover:scale-x-100 transition-all duration-300 ease-out"></span>
-        </button>
+        </a>
       </div>
 
 
